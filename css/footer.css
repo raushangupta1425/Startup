@@ -1,0 +1,25 @@
+.custom-footer{
+    position: relative;
+    bottom: 0;
+    background-color:  #12294C;
+    color:#f2f2f2;
+    padding:80px 0 0 10px; 
+}
+.footerIcons a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    list-style-type: "-";
+}
+.footer-dow-section{
+    justify-content: space-between;
+}
+@media screen and (max-width:768px) {
+    .mobile-view-footer{
+        
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+}

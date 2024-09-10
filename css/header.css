@@ -9,6 +9,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* header css */
 .headerContact{
     color: #ffffff;
     background-color:  #12294C;
@@ -19,7 +20,7 @@ body{
     color: #ffffff;
 }
 
-/* scroll css */
+/* header hide and show scrolling css */
 .hide-navbar1 {
     top: -8em;
     position: fixed;

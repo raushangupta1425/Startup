@@ -15,11 +15,3 @@ ul{
 .footer-dow-section{
     justify-content: space-between;
 }
-@media screen and (max-width:768px) {
-    .mobile-view-footer{
-        
-        display: flex !important;
-        flex-direction: column !important;
-
-    }
-}

@@ -12,44 +12,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-        <nav class="navbar bg-primary">
-            <div class="container-fluid px-5">
-              <a class="navbar-brand">Admin Pannel</a>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-dark" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
+    <nav class="navbar bg-primary">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand text-white"><b>Admin Panel</b></a>
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
     <div class="main_container">
         <div class="left_side_panel">
-            <img src="profile.png" alt="" width="65px" class="profile_image"> 
-            <img src="/setting.jpeg" alt="" width="45px" class="profile_image"> 
+            <img src="profile.png" alt="" width="70%" class="profile_image" style="outline: 2px solid #fff; outline-offset: 2px; border-radius: 50%;"> 
+            <div class="d-flex flex-column gap-3">
+                <a href="../index.html"><i class="fas fa-sign-out-alt text-light fs-4" title="Signout"></i></a>
+                <i class="fas fa-cog text-light fs-4" title="Setting"></i>
+            </div>
+            <!-- <img src="/setting.jpeg" alt="" width="45px" class="profile_image">  -->
         </div>
         <div class="middel_side_panel">
-            <div class="head_container">
-                <h3>Dashboard</h3>
-            </div>
-            <div class="side_heading1">
-                heading1
-            </div>
-            <div class="side_heading2">
-                heading2
-            </div>
-            <div class="side_heading3">
-                heading3
-            </div>
-            <div class="side_heading4">
-                heading4
-            </div>
+            <ul class="p-0">
+                <li><i class="fas fa-th"></i> Dashboard</li>
+                <li><i class="fas fa-users"></i> All Users</li>
+                <li><i class="fab fa-react"></i> Course Categories</li>
+                <li><i class="fas fa-clipboard"></i> Course Tests</li>
+                <li><i class="fas fa-clipboard-check"></i> Result</li>
+                <li><i class="fas fa-book-open"></i>Reports</li>
+                <li><i class="fas fa-certificate"></i> Certificates</li>
+                <li><i class="fas fa-poll"></i> Ranking</li>
+                <li><i class="fas fa-dollar-sign"></i>Earning</li>
+                <li><i class="fas fa-user-lock"></i> Admin Profile</li>
+                <li><i class="fas fa-comment-alt"></i> Feedbacks</li>
+            </ul>
         </div>
         <div class="right_side_panel p-4">
-            <h1>Dashboard</h1>
+            <div class="d-flex shadow-sm">
+                <div><h5>Filters</h5></div>
+                <div class="ms-auto filter">
+                    <select name="" id="">
+                        <option value="">Categories</option>
+                        <option value="">SSC GD</option>
+                        <option value="">SSC MTS</option>
+                        <option value="">UPSC</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Durations</option>
+                        <option value="">Weekly</option>
+                        <option value="">Monthly</option>
+                        <option value="">Yearly</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Categories</option>
+                        <option value="">SSC GD</option>
+                        <option value="">SSC MTS</option>
+                        <option value="">UPSC</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Categories</option>
+                        <option value="">SSC GD</option>
+                        <option value="">SSC MTS</option>
+                        <option value="">UPSC</option>
+                    </select>
+                </div>
+            </div>
+            <h3>Dashboard</h3>
             <div class="dashboard_row_1 text-center">
                 <div class="dashboard_progress_bars1 ">
                     <div class="progress-bar">
                         51%
-                        <progress value="51" min="0" max="100" style="visibility:hidden;height:0;width:0;">51%</progress>
+                        <!-- <progress value="51" min="0" max="100" style=" height:0; width:0;">51%</progress> -->
                     </div>
                     <p>Total Test Done</p>
                 </div>
@@ -78,7 +109,7 @@
                     <p>-------</p>
                 </div>
             </div>
-            <h1>Courses</h1>
+            <h3>Courses</h3>
             <div class="dashboard_row_1 text-center">
                 <div class="dashboard_progress_bars1 ">
                     <div class="progress-bar">
@@ -111,7 +142,7 @@
                     <p>JEE</p>
                 </div>
             </div>
-            <h1>No. of Questions</h1>
+            <h3>No. of Questions</h3>
             <div class="dashboard_row_1 text-center">
                 <div class="dashboard_progress_bars1 ">
                     <div class="progress-bar">
@@ -144,7 +175,7 @@
                     <p>JEE</p>
                 </div>
             </div>
-            <h1>Top Ranker</h1>
+            <h3>Top Ranker</h3>
             <div class="dashboard_row_1 text-center">
                 <div class="dashboard_progress_bars1 ">
                    <img src="/profile.png" alt="" class="ranker_img">

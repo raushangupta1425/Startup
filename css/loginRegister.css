@@ -9,7 +9,7 @@
     
 }
 body{
-    background-image: url("/assets/images/loginBackground.png");
+    background-image: url("../assets/images/loginBackground.png");
     background-size: cover;
     height: 97vh;
 }
